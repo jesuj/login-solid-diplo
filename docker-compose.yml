@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  mysql:
+    container_name: db_login
+    image: mysql:5.7
+    restart: always
+    # env_file: ./.env
+    ports:
+      - 3306:3306
+    volumes:
+      - ./db_login:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=db_login
+      - MYSQL_DATABASE=db_login

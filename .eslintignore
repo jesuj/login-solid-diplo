@@ -1,0 +1,6 @@
+package.json
+package-lock.json
+built
+node_modules
+prisma
+general_panel_db

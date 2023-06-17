@@ -1,0 +1,7 @@
+/node_modules
+/built
+/db_login
+
+package-lock.json
+.env
+logs.txt
